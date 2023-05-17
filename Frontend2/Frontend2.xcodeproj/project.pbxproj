@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA5213182A13ECF1004AAF9F /* FrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5213172A13ECF1004AAF9F /* FrontendApp.swift */; };
-		FA52131A2A13ECF1004AAF9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5213192A13ECF1004AAF9F /* ContentView.swift */; };
-		FA52131C2A13ECF2004AAF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA52131B2A13ECF2004AAF9F /* Assets.xcassets */; };
-		FA52131F2A13ECF2004AAF9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA52131E2A13ECF2004AAF9F /* Preview Assets.xcassets */; };
-		FA52132A2A13EDC2004AAF9F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5213292A13EDC2004AAF9F /* Storyboard.storyboard */; };
+		FA4CE4DD2A149EC8006FE397 /* Frontend2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4DC2A149EC8006FE397 /* Frontend2App.swift */; };
+		FA4CE4DF2A149EC8006FE397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4DE2A149EC8006FE397 /* ContentView.swift */; };
+		FA4CE4E12A149EC8006FE397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE4E02A149EC8006FE397 /* Assets.xcassets */; };
+		FA4CE4E42A149EC8006FE397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE4E32A149EC8006FE397 /* Preview Assets.xcassets */; };
+		FA4CE4F32A14B595006FE397 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4F22A14B595006FE397 /* SignInView.swift */; };
+		FA4CE4F52A14F57F006FE397 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4F42A14F57F006FE397 /* CreateAccountView.swift */; };
+		FA4CE4F72A14FEDC006FE397 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4F62A14FEDC006FE397 /* MainView.swift */; };
+		FA4CE4FB2A150040006FE397 /* KakaoConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4FA2A150040006FE397 /* KakaoConnect.swift */; };
+		FA4CE4FD2A1500E0006FE397 /* paymentregisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE4FC2A1500E0006FE397 /* paymentregisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA5213142A13ECF1004AAF9F /* Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frontend.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA5213172A13ECF1004AAF9F /* FrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontendApp.swift; sourceTree = "<group>"; };
-		FA5213192A13ECF1004AAF9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA52131B2A13ECF2004AAF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA52131E2A13ECF2004AAF9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA5213292A13EDC2004AAF9F /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FA4CE4D92A149EC8006FE397 /* Frontend2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frontend2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4CE4DC2A149EC8006FE397 /* Frontend2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frontend2App.swift; sourceTree = "<group>"; };
+		FA4CE4DE2A149EC8006FE397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA4CE4E02A149EC8006FE397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4CE4E32A149EC8006FE397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA4CE4F22A14B595006FE397 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		FA4CE4F42A14F57F006FE397 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		FA4CE4F62A14FEDC006FE397 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA4CE4FA2A150040006FE397 /* KakaoConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoConnect.swift; sourceTree = "<group>"; };
+		FA4CE4FC2A1500E0006FE397 /* paymentregisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentregisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA5213112A13ECF1004AAF9F /* Frameworks */ = {
+		FA4CE4D62A149EC8006FE397 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +42,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA52130B2A13ECF1004AAF9F = {
+		FA4CE4D02A149EC8006FE397 = {
 			isa = PBXGroup;
 			children = (
-				FA5213292A13EDC2004AAF9F /* Storyboard.storyboard */,
-				FA5213162A13ECF1004AAF9F /* Frontend */,
-				FA5213152A13ECF1004AAF9F /* Products */,
+				FA4CE4DB2A149EC8006FE397 /* Frontend2 */,
+				FA4CE4DA2A149EC8006FE397 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA5213152A13ECF1004AAF9F /* Products */ = {
+		FA4CE4DA2A149EC8006FE397 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA5213142A13ECF1004AAF9F /* Frontend.app */,
+				FA4CE4D92A149EC8006FE397 /* Frontend2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA5213162A13ECF1004AAF9F /* Frontend */ = {
+		FA4CE4DB2A149EC8006FE397 /* Frontend2 */ = {
 			isa = PBXGroup;
 			children = (
-				FA5213172A13ECF1004AAF9F /* FrontendApp.swift */,
-				FA5213192A13ECF1004AAF9F /* ContentView.swift */,
-				FA52131B2A13ECF2004AAF9F /* Assets.xcassets */,
-				FA52131D2A13ECF2004AAF9F /* Preview Content */,
+				FA4CE4F62A14FEDC006FE397 /* MainView.swift */,
+				FA4CE4FC2A1500E0006FE397 /* paymentregisterView.swift */,
+				FA4CE4FA2A150040006FE397 /* KakaoConnect.swift */,
+				FA4CE4DC2A149EC8006FE397 /* Frontend2App.swift */,
+				FA4CE4F22A14B595006FE397 /* SignInView.swift */,
+				FA4CE4F42A14F57F006FE397 /* CreateAccountView.swift */,
+				FA4CE4DE2A149EC8006FE397 /* ContentView.swift */,
+				FA4CE4E02A149EC8006FE397 /* Assets.xcassets */,
+				FA4CE4E22A149EC8006FE397 /* Preview Content */,
 			);
-			path = Frontend;
+			path = Frontend2;
 			sourceTree = "<group>";
 		};
-		FA52131D2A13ECF2004AAF9F /* Preview Content */ = {
+		FA4CE4E22A149EC8006FE397 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FA52131E2A13ECF2004AAF9F /* Preview Assets.xcassets */,
+				FA4CE4E32A149EC8006FE397 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +85,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA5213132A13ECF1004AAF9F /* Frontend */ = {
+		FA4CE4D82A149EC8006FE397 /* Frontend2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA5213222A13ECF2004AAF9F /* Build configuration list for PBXNativeTarget "Frontend" */;
+			buildConfigurationList = FA4CE4E72A149EC8006FE397 /* Build configuration list for PBXNativeTarget "Frontend2" */;
 			buildPhases = (
-				FA5213102A13ECF1004AAF9F /* Sources */,
-				FA5213112A13ECF1004AAF9F /* Frameworks */,
-				FA5213122A13ECF1004AAF9F /* Resources */,
+				FA4CE4D52A149EC8006FE397 /* Sources */,
+				FA4CE4D62A149EC8006FE397 /* Frameworks */,
+				FA4CE4D72A149EC8006FE397 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Frontend;
-			productName = Frontend;
-			productReference = FA5213142A13ECF1004AAF9F /* Frontend.app */;
+			name = Frontend2;
+			productName = Frontend2;
+			productReference = FA4CE4D92A149EC8006FE397 /* Frontend2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA52130C2A13ECF1004AAF9F /* Project object */ = {
+		FA4CE4D12A149EC8006FE397 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					FA5213132A13ECF1004AAF9F = {
+					FA4CE4D82A149EC8006FE397 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = FA52130F2A13ECF1004AAF9F /* Build configuration list for PBXProject "Frontend" */;
+			buildConfigurationList = FA4CE4D42A149EC8006FE397 /* Build configuration list for PBXProject "Frontend2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +125,47 @@
 				en,
 				Base,
 			);
-			mainGroup = FA52130B2A13ECF1004AAF9F;
-			productRefGroup = FA5213152A13ECF1004AAF9F /* Products */;
+			mainGroup = FA4CE4D02A149EC8006FE397;
+			productRefGroup = FA4CE4DA2A149EC8006FE397 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA5213132A13ECF1004AAF9F /* Frontend */,
+				FA4CE4D82A149EC8006FE397 /* Frontend2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA5213122A13ECF1004AAF9F /* Resources */ = {
+		FA4CE4D72A149EC8006FE397 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA52131F2A13ECF2004AAF9F /* Preview Assets.xcassets in Resources */,
-				FA52131C2A13ECF2004AAF9F /* Assets.xcassets in Resources */,
-				FA52132A2A13EDC2004AAF9F /* Storyboard.storyboard in Resources */,
+				FA4CE4E42A149EC8006FE397 /* Preview Assets.xcassets in Resources */,
+				FA4CE4E12A149EC8006FE397 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA5213102A13ECF1004AAF9F /* Sources */ = {
+		FA4CE4D52A149EC8006FE397 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA52131A2A13ECF1004AAF9F /* ContentView.swift in Sources */,
-				FA5213182A13ECF1004AAF9F /* FrontendApp.swift in Sources */,
+				FA4CE4FD2A1500E0006FE397 /* paymentregisterView.swift in Sources */,
+				FA4CE4FB2A150040006FE397 /* KakaoConnect.swift in Sources */,
+				FA4CE4F32A14B595006FE397 /* SignInView.swift in Sources */,
+				FA4CE4DF2A149EC8006FE397 /* ContentView.swift in Sources */,
+				FA4CE4F52A14F57F006FE397 /* CreateAccountView.swift in Sources */,
+				FA4CE4F72A14FEDC006FE397 /* MainView.swift in Sources */,
+				FA4CE4DD2A149EC8006FE397 /* Frontend2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA5213202A13ECF2004AAF9F /* Debug */ = {
+		FA4CE4E52A149EC8006FE397 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		FA5213212A13ECF2004AAF9F /* Release */ = {
+		FA4CE4E62A149EC8006FE397 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +279,14 @@
 			};
 			name = Release;
 		};
-		FA5213232A13ECF2004AAF9F /* Debug */ = {
+		FA4CE4E82A149EC8006FE397 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Frontend/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Frontend2/Preview Content\"";
 				DEVELOPMENT_TEAM = X286L8XRZL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.arthur.Frontend;
+				PRODUCT_BUNDLE_IDENTIFIER = co.arthur.Frontend2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +308,14 @@
 			};
 			name = Debug;
 		};
-		FA5213242A13ECF2004AAF9F /* Release */ = {
+		FA4CE4E92A149EC8006FE397 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Frontend/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Frontend2/Preview Content\"";
 				DEVELOPMENT_TEAM = X286L8XRZL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.arthur.Frontend;
+				PRODUCT_BUNDLE_IDENTIFIER = co.arthur.Frontend2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +340,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA52130F2A13ECF1004AAF9F /* Build configuration list for PBXProject "Frontend" */ = {
+		FA4CE4D42A149EC8006FE397 /* Build configuration list for PBXProject "Frontend2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA5213202A13ECF2004AAF9F /* Debug */,
-				FA5213212A13ECF2004AAF9F /* Release */,
+				FA4CE4E52A149EC8006FE397 /* Debug */,
+				FA4CE4E62A149EC8006FE397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA5213222A13ECF2004AAF9F /* Build configuration list for PBXNativeTarget "Frontend" */ = {
+		FA4CE4E72A149EC8006FE397 /* Build configuration list for PBXNativeTarget "Frontend2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA5213232A13ECF2004AAF9F /* Debug */,
-				FA5213242A13ECF2004AAF9F /* Release */,
+				FA4CE4E82A149EC8006FE397 /* Debug */,
+				FA4CE4E92A149EC8006FE397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA52130C2A13ECF1004AAF9F /* Project object */;
+	rootObject = FA4CE4D12A149EC8006FE397 /* Project object */;
 }

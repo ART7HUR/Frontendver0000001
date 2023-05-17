@@ -4,23 +4,25 @@
 //
 //  Created by 임승현 on 2023/05/17.
 //
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, SwiftUI!")
+                .font(.largeTitle)
+                .padding()
+            
+            Button(action: {
+                // Handle button tap
+            }) {
+                Text("Tap Me")
+                    .font(.title)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
